@@ -13,9 +13,16 @@ function unshelfBook(book, shelf) {
   return shelf
 };
 
+function listTitles(shelf) {
+  var titles = [];
+  for (i = 0; i < shelf.length; i++) {
+    titles.push(shelf[i].title);
+  }
+  return titles.join(", ");
+};
 module.exports = {
   shelfBook,
   unshelfBook,
-  //listTitles,
+  listTitles,
   //searchShelf
 };
