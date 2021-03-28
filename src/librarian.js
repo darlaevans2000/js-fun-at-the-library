@@ -20,9 +20,5 @@ class Librarian {
 }
 return `Sorry, we do not have ${title}`
 }
-calculateLateFee(days){
-  return Math.ceil(days * 0.25)
 }
-}
-module.exports = Librarian;
 module.exports = Librarian;
