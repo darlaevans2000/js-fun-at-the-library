@@ -1,5 +1,5 @@
-# JS Fun in the Library
-
+# JS Fun in the Library   
+A front-end mod 1 Turing project by Darla Evans.   
 ## Overview
 
 In front end web development, the programming language you will encounter most
@@ -26,5 +26,5 @@ problem.
   - clone the repository to your local machine
   - `cd` into the project
   - run `npm install` to install the necessary dependencies
-  
+
   The project spec can be found [here](https://frontend.turing.io/projects/module-1/library.html).
