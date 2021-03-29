@@ -22,7 +22,7 @@ function addBook(library, book) {
 function checkoutBook(library, title, genre) {
   for (var i = 0; i < library.shelves[genre].length; i++) {
     if (library.shelves[genre][i].title === title) {
-      library.shelves[genre].splice([i], 1);
+      library.shelves[genre].splice(i, 1);
       return `You have now checked out ${title} from the ${library.name}`;
     }
   }
